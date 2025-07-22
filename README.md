@@ -109,24 +109,24 @@ To learn more about React Native, take a look at the following resources:
 
 ### 🏠 Home Screen
 
-<img src="./screenshots/home.jpeg" width="300" />
+<img src="./src/screenshorts/home.jpeg" width="300" />
 
 ---
 
 ### 🔍 Search Screen
 
-<img src="./screenshots/search.jpeg" width="300" />
+<img src="./src/screenshorts/search.jpeg" width="300" />
 
 ---
 
 ### 📄 Movie Details
 
-<img src="./screenshots/details.jpeg" width="300" />
+<img src="./src/screenshorts/details.jpeg" width="300" />
 
 ---
 
 ### ❤️ Favourites
 
-<img src="./screenshots/favourite.jpeg" width="300" />
+<img src="./src/screenshorts/favourite.jpeg" width="300" />
 
 ---
