@@ -8,7 +8,6 @@ const { width, height } = Dimensions.get('window');
 export default function SearchScreen() {
     const [query, setQuery] = useState('');
     const [filteredMovies, setFilteredMovies] = useState(movies);
-    const [search, setSearch] = useState('');
 
     useEffect(() => {
         const filtered = movies.filter((movie) =>
@@ -41,13 +40,6 @@ export default function SearchScreen() {
                         autoFocus
                         onChangeText={setQuery}
                     />
-                    {/* {search.length > 0 && (
-                        <TouchableOpacity onPress={() => setSearch('')}>
-                            <Image source={require('../images/cross.png')}
-                                style={{ width: 40, height: 40, resizeMode: 'contain',position:'absolute' }}
-                            />
-                        </TouchableOpacity>
-                    )} */}
                 </View>
                 <FlatList
                     data={filteredMovies}

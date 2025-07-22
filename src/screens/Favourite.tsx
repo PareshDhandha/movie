@@ -25,7 +25,6 @@ const FavouritesScreen = ({ navigation }: any) => {
                 renderItem={({ item }) => (
                     <TouchableOpacity onPress={() => navigation.navigate('DetailsScreen', { item })}>
                         <View style={styles.card}>
-                            {/* <Image source={require(item.img_url)} style={styles.poster} /> */}
                             <Image source={imageMap[item.img_url]}
                                 style={styles.poster}
                             />

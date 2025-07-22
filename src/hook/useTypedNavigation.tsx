@@ -1,4 +1,3 @@
-// src/hooks/useTypedNavigation.ts
 import { useNavigation } from '@react-navigation/native';
 import {
   NativeStackNavigationProp,

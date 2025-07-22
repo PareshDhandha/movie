@@ -1,6 +1,5 @@
-import { Image, StyleSheet, Text, TextInput, TouchableOpacity, View } from "react-native";
+import { Image, StyleSheet,TextInput, TouchableOpacity, View } from "react-native";
 import React from "react";
-import Icon from "react-native-vector-icons/Feather";
 import { widthPercentageToDP as wp, heightPercentageToDP as hp } from "react-native-responsive-screen";
 import { useTypedNavigation } from "../hook/useTypedNavigation";
 
@@ -53,6 +52,5 @@ const styles = StyleSheet.create({
         width: wp('6%'),
         height: hp('6%'),
         resizeMode: 'contain',
-
     }
 });

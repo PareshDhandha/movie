@@ -1,7 +1,5 @@
-// components/MovieCard.tsx
 import React from 'react';
-import { View, Text, Image, StyleSheet, TouchableOpacity, Dimensions } from 'react-native';
-import Icon from 'react-native-vector-icons/Ionicons';
+import { Text, Image, StyleSheet, TouchableOpacity, Dimensions } from 'react-native';
 import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-native-responsive-screen'
 import { useTypedNavigation } from '../hook/useTypedNavigation';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';

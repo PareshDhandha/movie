@@ -113,7 +113,6 @@ const styles = StyleSheet.create({
         paddingLeft: wp('2%')
     },
     imageBackground: {
-        // flex: 1,
         width: width,
         height: height * 0.50,
         resizeMode: 'contain',

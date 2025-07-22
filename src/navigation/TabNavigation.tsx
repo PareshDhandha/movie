@@ -1,9 +1,7 @@
-import { Image, StyleSheet, Text, View } from 'react-native'
+import { Image, StyleSheet } from 'react-native'
 import React from 'react'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import StackNavigation from './StackNavigation';
 import Favourite from '../screens/Favourite';
-import Icon from "react-native-vector-icons/MaterialCommunityIcons";
 import HomeScreen from '../screens/HomeScreen';
 
 const Tab = createBottomTabNavigator();
