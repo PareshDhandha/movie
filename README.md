@@ -95,3 +95,38 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+
+## 📱 Features
+
+- 🔍 Live Search with Filters
+- ❤️ Add/Remove Movies to/from Favourites
+- 💾 Persistent Storage using Redux + AsyncStorage
+- 🧭 Stack + Tab Navigation
+- 🎨 Beautiful Responsive UI
+- 🖼️ Local Image Support via JSON
+
+## 🚀 Screenshots
+
+### 🏠 Home Screen
+
+<img src="./screenshots/home.jpeg" width="300" />
+
+---
+
+### 🔍 Search Screen
+
+<img src="./screenshots/search.jpeg" width="300" />
+
+---
+
+### 📄 Movie Details
+
+<img src="./screenshots/details.jpeg" width="300" />
+
+---
+
+### ❤️ Favourites
+
+<img src="./screenshots/favourite.jpeg" width="300" />
+
+---
